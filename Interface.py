@@ -73,7 +73,7 @@ def listar_materias() -> None:
 
 def pegar_materias():
     try:
-        con = mysql.connector.connect(host='127.0.0.1', database='mydb', user='newuser', password='Whinttemore456@')
+        con = mysql.connector.connect(host='', database='', user='', password='')
 
         consulta_sql = f"SELECT * FROM materia"
         cursor = con.cursor()
@@ -92,7 +92,7 @@ def pegar_materias():
 
 def pegar_valores_alunos():
     try:
-        con = mysql.connector.connect(host='127.0.0.1', database='mydb', user='newuser', password='Whinttemore456@')
+        con = mysql.connector.connect(host='', database='', user='', password='')
 
         consulta_sql = f"SELECT * FROM aluno"
         cursor = con.cursor()
